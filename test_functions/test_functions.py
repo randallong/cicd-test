@@ -1,5 +1,5 @@
 import pytest
-from ..functions.functions import function1, function2
+from functions.functions import function1, function2
 
 
 def test_function1():
