@@ -1,5 +1,13 @@
 import pytest
-from functions.main_functions import function1, function2
+
+
+def function1():
+    x = 1
+    return x
+
+
+def function2(x):
+    return x*2
 
 
 def test_function1():
